@@ -1,4 +1,4 @@
-# Simple Inventory Management System
+# Inventory Management System
 
 # Lists to store item names and quantities
 items = ["Pen", "Book", "Pencil"]
