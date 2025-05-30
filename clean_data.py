@@ -1,7 +1,7 @@
 import pandas as pd
 
-def clean_mine_data(file_path):
-    df = pd.read_csv(file_path)
+def clean_mine_data(Mine.csv):
+    df = pd.read_csv(Mine.csv)
 
     # 1. Remove all rows with any missing values
     df.dropna(inplace=True)
@@ -27,8 +27,8 @@ def clean_mine_data(file_path):
 
     return df
 
-def clean_sales_data(file_path):
-    df = pd.read_csv(file_path)
+def clean_sales_data(Sales.csv):
+    df = pd.read_csv(Sales.csv)
 
     # 1. Remove all rows with any missing values
     df.dropna(inplace=True)
